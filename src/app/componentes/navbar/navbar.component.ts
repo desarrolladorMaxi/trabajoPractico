@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+titulo:string;
+
+constructor(){
+  this.titulo = "Maximiliano N";
+}
+
 }
